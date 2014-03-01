@@ -21,7 +21,7 @@ public class DealerHitSoftSeventeen extends AbstractDealerHandResolver{
     //Dealer should hit soft seventeen because one total is < 17
     boolean dealerBelowSeventeen() {
         boolean belowFound = false;
-        for (Integer totals : blackJackGame.getDealersHand().getTotals()) {
+        for (Integer totals : blackJackGame.getDealers().getTotals()) {
             if (totals < 17) {
                 return true;
             }

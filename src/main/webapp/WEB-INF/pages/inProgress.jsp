@@ -8,18 +8,36 @@
 
 <div>
     <h1>Dealers</h1>
-    ${game.dealersHand.getImages()}
-     <img src="/images/cards/Clubs/2.jpg"/>
+    <table>
+    <tr>
+    <c:forEach var="image" items="${game.dealers.getImages()}">
+    <td>
+    <img src="<c:url value='${image}'/>"/>
+    </td>
+    </c:forEach>
+    </tr>
+    </table>
+
+
     <h2>Totals</h2>
-    ${game.dealersHand.totals}
+    ${game.dealers.totals}
 </div>
 
 <div>
     <h1>Players</h1>
-    ${game.playersHand.getImages()}
+    <table>
+        <tr>
+        <c:forEach var="image" items="${game.players.getImages()}">
+        <td>
+        <img src="<c:url value='${image}'/>"/>
+        </td>
+        </c:forEach>
+        </tr>
+    </table>
+
 
     <h2>Totals</h2>
-    ${game.playersHand.totals}
+    ${game.players.totals}
 </div>
 
 <div>

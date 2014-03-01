@@ -21,7 +21,7 @@ public class DealerStandSoftSeventeen extends AbstractDealerHandResolver{
     //Dealer should stand on soft seventeen because one total is >= 17..
     boolean dealerBelowSeventeen() {
         boolean seventeenOrHigherFound = false;
-        for (Integer totals : blackJackGame.getDealersHand().getTotals()) {
+        for (Integer totals : blackJackGame.getDealers().getTotals()) {
             if (totals >= 17) {
                 return true;
             }

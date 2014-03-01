@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
@@ -6,24 +7,40 @@
 <body>
 
 <div>
-    <h1>Dealers Hand</h1>
-    ${game.dealersHand.toString()}
+    <h1>Dealers</h1>
+    <table>
+       <tr>
+       <c:forEach var="image" items="${game.dealers.getImages()}">
+       <td>
+       <img src="<c:url value='${image}'/>"/>
+       </td>
+       </c:forEach>
+       </tr>
+     </table>
 
     <h2>Totals</h2>
-    ${game.dealersHand.finalTotal()}
+    ${game.dealers.finalTotal()}
 
-    ${game.dealersHand.result()}
+    ${game.dealers.result()}
 
 </div>
 
 <div>
-    <h1>Players Hand</h1>
-    ${game.playersHand.toString()}
+    <h1>Players</h1>
+    <table>
+           <tr>
+           <c:forEach var="image" items="${game.players.getImages()}">
+           <td>
+           <img src="<c:url value='${image}'/>"/>
+           </td>
+           </c:forEach>
+           </tr>
+    </table>
 
     <h2>Totals</h2>
-    ${game.playersHand.finalTotal()}
+    ${game.players.finalTotal()}
 
-    ${game.playersHand.result()}
+    ${game.players.result()}
 
 </div>
 
