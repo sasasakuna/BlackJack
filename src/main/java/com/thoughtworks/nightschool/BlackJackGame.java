@@ -1,14 +1,14 @@
 package com.thoughtworks.nightschool;
 
 
-import com.thoughtworks.nightschool.DealerStrategies.DealerHandResolver;
+import com.thoughtworks.nightschool.dealerstrategies.DealerHandResolver;
 import org.springframework.beans.factory.annotation.Autowired;
 
 public class BlackJackGame {
 
     private Shoe shoe;
-    private Role dealers;
-    private Role players;
+    private Player dealersPlayer;
+    private Player playersPlayer;
 
     //todo: fix this so dealer's strategy can be injected
     @Autowired
@@ -17,44 +17,42 @@ public class BlackJackGame {
     public BlackJackGame(){
         this.shoe = new Shoe(6);
 
-        dealers = new Role();
-        dealers.addCard(shoe.draw());
+        dealersPlayer = new Player();
+        dealersPlayer.addCard(shoe.draw());
 
-        players = new Role();
-        players.addCard(shoe.draw());
-        players.addCard(shoe.draw());
+        playersPlayer = new Player();
+        playersPlayer.addCard(shoe.draw());
+        playersPlayer.addCard(shoe.draw());
 
     }
 
-
-    public Role getDealers() {
-        return dealers;
+    public Player getDealersPlayer() {
+        return dealersPlayer;
     }
 
-    public Role getPlayers() {
-        return players;
+    public Player getPlayersPlayer() {
+        return playersPlayer;
     }
 
-    public void setPlayers(Role role) {
-        this.players = role;
+    public void setPlayersPlayer(Player player) {
+        this.playersPlayer = player;
     }
 
-    public void setDealers(Role role) {
-        this.dealers = role;
+    public void setDealersPlayer(Player player) {
+        this.dealersPlayer = player;
     }
 
     public void playerHit(){
-        players.addCard(shoe.draw());
+        playersPlayer.addCard(shoe.draw());
     }
 
     public void dealerHit(){
-        dealers.addCard(shoe.draw());
+        dealersPlayer.addCard(shoe.draw());
     }
-
 
     public boolean playerBusted() {
         boolean allTotalsBusted = true;
-        for(Integer totals : players.getTotals()){
+        for(Integer totals : playersPlayer.getTotals()){
             if (totals <= 21){
                 allTotalsBusted = false;
             }
@@ -64,7 +62,7 @@ public class BlackJackGame {
 
     //Return false if any total is less than 21
     public boolean dealerBusted() {
-        for(Integer totals : dealers.getTotals()){
+        for(Integer totals : dealersPlayer.getTotals()){
             if (totals <= 21){
                 return false;
             }
@@ -80,7 +78,7 @@ public class BlackJackGame {
 
     //If any total is >= 17 but not a bust do no hit
     private boolean dealerBelowSeventeen() {
-        for (Integer totals : getDealers().getTotals()) {
+        for (Integer totals : getDealersPlayer().getTotals()) {
             if (totals >= 17 && totals < 22){ //Do not hit if dealers has 17 or greater
                 return false;
             }
@@ -89,13 +87,13 @@ public class BlackJackGame {
     }
 
     public String result(){
-        if (playerBusted() || dealers.blackJack()){
+        if (playerBusted() || dealersPlayer.blackJack()){
             return "You lose! :(";
-        }else if (players.blackJack()){
+        }else if (playersPlayer.blackJack()){
             return "You win!";
-        }else if (players.finalTotal().equals(dealers.finalTotal())){
+        }else if (playersPlayer.finalTotal().equals(dealersPlayer.finalTotal())){
             return "Push";
-        }else if ( (players.finalTotal() < dealers.finalTotal()) && (dealers.finalTotal() < 22)){
+        }else if ( (playersPlayer.finalTotal() < dealersPlayer.finalTotal()) && (dealersPlayer.finalTotal() < 22)){
             return "You lose! :(";
         }else{
             return "You win!";

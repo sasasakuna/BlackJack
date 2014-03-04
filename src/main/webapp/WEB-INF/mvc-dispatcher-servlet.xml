@@ -21,8 +21,8 @@
    <mvc:resources location="/images/" mapping="/images/**"/>
     <mvc:annotation-driven/>
     <!-- Dependency Inject dealer's strategy -->
-    <!--bean name="dealerHandResolver" class="com.thougntworks.nightschool.DealerStrategies.DealerHitSoftSeventeen"/-->
-    <!--bean name="dealerHandResolver" class="com.thougntworks.nightschool.DealerStrategies.DealerStandSoftSeventeen"/-->
+    <!--bean name="dealerHandResolver" class="com.thougntworks.nightschool.dealerstrategies.DealerHitSoftSeventeen"/-->
+    <!--bean name="dealerHandResolver" class="com.thougntworks.nightschool.dealerstrategies.DealerStandSoftSeventeen"/-->
 
 
 </beans>

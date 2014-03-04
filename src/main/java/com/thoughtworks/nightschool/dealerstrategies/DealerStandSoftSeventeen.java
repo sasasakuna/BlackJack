@@ -1,4 +1,4 @@
-package com.thoughtworks.nightschool.DealerStrategies;
+package com.thoughtworks.nightschool.dealerstrategies;
 
 import com.thoughtworks.nightschool.BlackJackGame;
 
@@ -21,7 +21,7 @@ public class DealerStandSoftSeventeen extends AbstractDealerHandResolver{
     //Dealer should stand on soft seventeen because one total is >= 17..
     boolean dealerBelowSeventeen() {
         boolean seventeenOrHigherFound = false;
-        for (Integer totals : blackJackGame.getDealers().getTotals()) {
+        for (Integer totals : blackJackGame.getDealersPlayer().getTotals()) {
             if (totals >= 17) {
                 return true;
             }

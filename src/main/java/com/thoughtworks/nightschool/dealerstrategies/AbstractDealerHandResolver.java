@@ -1,4 +1,4 @@
-package com.thoughtworks.nightschool.DealerStrategies;
+package com.thoughtworks.nightschool.dealerstrategies;
 
 import com.thoughtworks.nightschool.BlackJackGame;
 
