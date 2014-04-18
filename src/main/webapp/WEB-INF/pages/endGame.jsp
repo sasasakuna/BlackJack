@@ -10,7 +10,7 @@
     <h1>Dealers</h1>
     <table>
        <tr>
-       <c:forEach var="image" items="${game.dealers.getImages()}">
+       <c:forEach var="image" items="${game.getDealers().getImages()}">
        <td>
        <img src="<c:url value='${image}'/>"/>
        </td>
@@ -29,7 +29,7 @@
     <h1>Players</h1>
     <table>
            <tr>
-           <c:forEach var="image" items="${game.players.getImages()}">
+           <c:forEach var="image" items="${game.getPlayers().getImages()}">
            <td>
            <img src="<c:url value='${image}'/>"/>
            </td>

@@ -1,0 +1,62 @@
+#top h1 {
+        color:black;
+        text-align: center;
+        font-size : 64px;
+        }
+#top small {
+        color:gray;
+        font-size : 24px;
+        }
+.role {
+          width: 960px;
+
+
+          margin-top: 10px;
+          margin-left: 100px;
+          margin-right: 10px;
+
+       }
+
+.title {
+
+
+        height: 26px;
+        background-color: #f5f5f5;
+         margin-top: 10px;
+       margin-left: 100px;
+       margin-right: 10px;
+        }
+
+.img {
+
+       height: 300px;
+       border-style: solid;
+       border-width: 5px;
+       border-color : #f5f5f5;
+
+
+        }
+.score {
+        width: 200px;
+        height: 300px;
+        position:absolute;
+        left:1100px;
+        top: 120px;
+
+        border-style: solid;
+        border-width: 5px;
+        border-color : #f5f5f5;
+
+}
+
+.left #hitButton{
+         position:absolute;
+         left:0px;
+         top: 510px;
+}
+
+.left #standButton{
+         position:absolute;
+         left:0px;
+         top: 550px;
+}

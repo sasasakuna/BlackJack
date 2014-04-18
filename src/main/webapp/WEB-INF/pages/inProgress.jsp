@@ -2,45 +2,58 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Blackjack</title>
+     <title>Blackjack</title>
+     <link rel="stylesheet" href="inProgress.css">
+      <script type="text/javascript" src="jquery.1.10.2.min.js"></script>
+      <script type="text/javascript" src="inProgress.js"></script>
+
+
 </head>
 <body>
 
-<div>
-    <h1>Dealers</h1>
-    <table>
-    <tr>
-    <c:forEach var="image" items="${game.dealers.getImages()}">
-    <td>
-    <img src="<c:url value='${image}'/>"/>
-    </td>
-    </c:forEach>
-    </tr>
-    </table>
-
-
-    <h2>Totals</h2>
-    ${game.dealers.totals}
+<div id="top">
+      <h1>Black  Jack  <small>Go rock it</small></h1>
 </div>
-
-<div>
-    <h1>Players</h1>
-    <table>
+<div class = "role">
+    <div class = "title">Dealer</div>
+    <div class = "img">
+        <table>
         <tr>
-        <c:forEach var="image" items="${game.players.getImages()}">
+        <c:forEach var="image" items="${game.getDealers().getImages()}">
         <td>
         <img src="<c:url value='${image}'/>"/>
         </td>
         </c:forEach>
         </tr>
-    </table>
+        </table>
+     </div>
+</div>
 
+<div class = "role">
+    <div class = "title">Player</div>
+     <div class = "img">
+        <table>
+        <tr>
+        <c:forEach var="image" items="${game.getPlayers().getImages()}">
+        <td>
+        <img src="<c:url value='${image}'/>"/>
+        </td>
+        </c:forEach>
+        </tr>
+       </table>
+     </div>
+</div>
 
-    <h2>Totals</h2>
+<div class = "score">
+  <div class = "title">Scores</div>
+  <h2>Dealer Totals</h2>
+     ${game.dealers.totals}
+
+   <h2>Player Totals</h2>
     ${game.players.totals}
 </div>
 
-<div>
+<div class = "left">
     <form method="POST">
         <input value="Hit" name="hit" type="submit" id="hitButton" class="submit_button">
         <input value="Stand" name="stand" type="submit" id="standButton" class="submit_button">
