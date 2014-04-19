@@ -4,8 +4,8 @@
 <head>
      <title>Blackjack</title>
      <link rel="stylesheet" href="inProgress.css">
-      <script type="text/javascript" src="jquery.1.10.2.min.js"></script>
-      <script type="text/javascript" src="inProgress.js"></script>
+     <script type="text/javascript" src="jquery.1.10.2.min.js"></script>
+     <script type="text/javascript" src="inProgress.js"></script>
 
 
 </head>
@@ -15,8 +15,8 @@
       <h1>Black  Jack  <small>Go rock it</small></h1>
 </div>
 <div class = "role">
-    <div class = "title">Dealer</div>
-    <div class = "img">
+    <div class = "dealer_title">Dealer</div>
+    <div class = "dealer_img">
         <table>
         <tr>
         <c:forEach var="image" items="${game.getDealers().getImages()}">
@@ -30,8 +30,8 @@
 </div>
 
 <div class = "role">
-    <div class = "title">Player</div>
-     <div class = "img">
+    <div class = "player_title">Player</div>
+     <div class = "player_img">
         <table>
         <tr>
         <c:forEach var="image" items="${game.getPlayers().getImages()}">
@@ -45,7 +45,7 @@
 </div>
 
 <div class = "score">
-  <div class = "title">Scores</div>
+  <div class = "score_title">Scores</div>
   <h2>Dealer Totals</h2>
      ${game.dealers.totals}
 

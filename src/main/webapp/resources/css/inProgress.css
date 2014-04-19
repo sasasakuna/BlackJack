@@ -17,17 +17,15 @@
 
        }
 
-.title {
+.dealer_title, .player_title, .score_title {
 
 
         height: 26px;
         background-color: #f5f5f5;
-         margin-top: 10px;
-       margin-left: 100px;
-       margin-right: 10px;
+        margin: none;
         }
 
-.img {
+.dealer_img,.player_img {
 
        height: 300px;
        border-style: solid;

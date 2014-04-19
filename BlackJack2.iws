@@ -2,30 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85a72c35-ce5b-4c3e-9904-9a936cb4be0d" name="Default" comment="">
-      <change type="DELETED" beforePath="F:\Users\Administrator\IdeaProjects\BlackJack\src\main\java\com\thoughtworks\nightschool\Player.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BlackJack2.iws" afterPath="$PROJECT_DIR$/BlackJack2.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/thoughtworks/nightschool/BlackJackGame.java" afterPath="$PROJECT_DIR$/src/main/java/com/thoughtworks/nightschool/BlackJackGame.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/thoughtworks/nightschool/dealerstrategies/DealerHitSoftSeventeen.java" afterPath="$PROJECT_DIR$/src/main/java/com/thoughtworks/nightschool/dealerstrategies/DealerHitSoftSeventeen.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/thoughtworks/nightschool/dealerstrategies/DealerStandSoftSeventeen.java" afterPath="$PROJECT_DIR$/src/main/java/com/thoughtworks/nightschool/dealerstrategies/DealerStandSoftSeventeen.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/thoughtworks/nightschool/GameController.java" afterPath="$PROJECT_DIR$/src/main/java/com/thoughtworks/nightschool/GameController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/endGame.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/endGame.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/inProgress.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/inProgress.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/inProgress.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/inProgress.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/inProgress.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/inProgress.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" />
     </list>
     <ignored path="BlackJack2.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="85a72c35-ce5b-4c3e-9904-9a936cb4be0d" time="1397724793478" ignored="false" />
+    <file path="/Dummy.txt" changelist="85a72c35-ce5b-4c3e-9904-9a936cb4be0d" time="1397908373427" ignored="false" />
     <file path="/mvc-dispatcher-servlet.xml" changelist="85a72c35-ce5b-4c3e-9904-9a936cb4be0d" time="1397527676733" ignored="false" />
-    <file path="/inProgress.jsp" changelist="85a72c35-ce5b-4c3e-9904-9a936cb4be0d" time="1397724100601" ignored="false" />
+    <file path="/inProgress.jsp" changelist="85a72c35-ce5b-4c3e-9904-9a936cb4be0d" time="1397913474754" ignored="false" />
     <file path="/AppTests.java" changelist="85a72c35-ce5b-4c3e-9904-9a936cb4be0d" time="1393603010431" ignored="false" />
     <file path="/BlackJackGameTests.java" changelist="85a72c35-ce5b-4c3e-9904-9a936cb4be0d" time="1393602912510" ignored="false" />
     <file path="/Hand.java" changelist="85a72c35-ce5b-4c3e-9904-9a936cb4be0d" time="1393664494859" ignored="false" />
     <file path="/endGame.jsp" changelist="85a72c35-ce5b-4c3e-9904-9a936cb4be0d" time="1397485757062" ignored="false" />
     <file path="/GameController.java" changelist="85a72c35-ce5b-4c3e-9904-9a936cb4be0d" time="1397485018332" ignored="false" />
     <file path="/BlackJackGame.java" changelist="85a72c35-ce5b-4c3e-9904-9a936cb4be0d" time="1397379318774" ignored="false" />
-    <file path="/inProgress.css" changelist="85a72c35-ce5b-4c3e-9904-9a936cb4be0d" time="1397724942869" ignored="false" />
-    <file path="/inProgress.js" changelist="85a72c35-ce5b-4c3e-9904-9a936cb4be0d" time="1397724113862" ignored="false" />
+    <file path="/inProgress.css" changelist="85a72c35-ce5b-4c3e-9904-9a936cb4be0d" time="1397913487361" ignored="false" />
+    <file path="/inProgress.js" changelist="85a72c35-ce5b-4c3e-9904-9a936cb4be0d" time="1397913350212" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,88 +83,25 @@
       <file leaf-file-name="inProgress.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/inProgress.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="28" selection-start="367" selection-end="367" vertical-scroll-proportion="0.0">
+            <state line="43" column="14" selection-start="1133" selection-end="1140" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="inProgress.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/inProgress.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="inProgress.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/inProgress.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="67" selection-start="285" selection-end="285" vertical-scroll-proportion="0.49137932">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jquery.1.10.2.min.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/jquery.1.10.2.min.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="endGame.jsp" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="endGame.jsp" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/endGame.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="60" selection-start="639" selection-end="639" vertical-scroll-proportion="0.0">
+            <state line="39" column="40" selection-start="1088" selection-end="1088" vertical-scroll-proportion="1.2308971">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DealerHitSoftSeventeen.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/nightschool/dealerstrategies/DealerHitSoftSeventeen.java">
+      <file leaf-file-name="inProgress.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/inProgress.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="54" selection-start="669" selection-end="669" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DealerStandSoftSeventeen.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/nightschool/dealerstrategies/DealerStandSoftSeventeen.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="54" selection-start="695" selection-end="695" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GameController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/nightschool/GameController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="55" selection-start="758" selection-end="758" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BlackJackGame.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/nightschool/BlackJackGame.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="14" selection-start="244" selection-end="244" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Role.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/nightschool/Role.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="58" selection-start="669" selection-end="669" vertical-scroll-proportion="0.0">
+            <state line="16" column="42" selection-start="286" selection-end="286" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -204,12 +135,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/thoughtworks/nightschool/dealerstrategies/DealerHitSoftSeventeen.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thoughtworks/nightschool/dealerstrategies/DealerStandSoftSeventeen.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thoughtworks/nightschool/GameController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/endGame.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/inProgress.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/inProgress.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/css/inProgress.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/inProgress.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/js/inProgress.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/endGame.jsp" />
       </list>
     </option>
   </component>
@@ -256,6 +187,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -484,8 +417,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -500,8 +431,8 @@
     <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -747,37 +678,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="60" selection-start="1117" selection-end="1117" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/endGame.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="60" selection-start="639" selection-end="639" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/mainMenu.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="20" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="10" column="20" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/nightschool/Role.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="58" selection-start="669" selection-end="669" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/inProgress.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="28" selection-start="367" selection-end="367" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -789,16 +697,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="34" selection-start="1233" selection-end="1233" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/inProgress.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0">
+        <state line="7" column="21" selection-start="198" selection-end="198" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/inProgress.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="67" selection-start="285" selection-end="285" vertical-scroll-proportion="0.49137932">
+        <state line="16" column="42" selection-start="286" selection-end="286" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/inProgress.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="14" selection-start="1133" selection-end="1140" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/endGame.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="40" selection-start="1088" selection-end="1088" vertical-scroll-proportion="1.2308971">
           <folding />
         </state>
       </provider>
